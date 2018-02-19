@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Repdroductor 1.0 XD</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="playlist.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript"  src="playlist.js"></script>
+
+    </head>
+
+    <body>
+        <header id="main-header">
+
+                <nav class="top_menu">
+                    <ul>
+                        <li>
+                         <a href="#">SALIR</a>
+                        </li>
+                        <li>
+                         <a href="#">Home</a>
+                        </li>
+                       
+                    </ul>
+    
+                </nav>
+
+        </header>
+
+        <div id="container">
+             <h3 > REPRODUCTOR 1.0</h3>
+
+            <aside>
+            <ul id="playlist">                 
+                <li><img src="imagen1.jpg"><a class="active" data-type="1" href="javascript:void(0)" > Primer Video</a></li><br>
+                <li><img src="imagen2.jpg"><a class="active" data-type="2" href="javascript:void(0)" > Segundo Video</a></li><br>
+                <li><img src="imagen3.jpg"><a class="active" data-type="3" href="javascript:void(0)" > Tercer Video</a></li><br>                
+            </ul>
+                <BR><BR><BR><BR>
+            </aside>
+
+            <section id="content">
+                <article>
+                  
+
+                    
+                    <video   src="primerVideo.mp4"  autoplay
+                        tabindex="0" width="500" height="270"controls id="video" loop>
+                    
+                    </video>
+                    <br>
+    
+                    <video   src="segundoVideo.mp4"  
+                    tabindex="0" width="500" height="270"controls id="video" loop>
+                
+                </video>
+                <video   src="tercerVideo.mp4"  
+                tabindex="0" width="500" height="270"controls id="video" loop>
+            
+            </video>
+                    
+                </article>
+            </section>
+
+        </div>
+        <br><br>
+        <footer ><center> Alfonso & Beto 18/02/2018 <center></footer>
+    </body>
+
+</html>
+
