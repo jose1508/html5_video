@@ -1,161 +1,94 @@
-body{
-    background-color: sienna;
+body {
+    background-color: white;
 }
-
-
-ul{
+ul {
     padding: 10px;
     margin: 10px;
 }
-
-
-#container{
+#container {
     width: 90%;
-
     overflow: auto;
     border-radius: 0.5em;
-
 }
-
-header#main{
+header#main {
     padding: 1em;
     background: lightgray;
 }
-
-main{
+main {
     padding: 1em;
 }
-
-footer{
+footer {
     padding: 0.5em;
     text-align: center;
 }
-
-
-
-nav{
+nav {
     background-color: black;
 }
-
-nav ul li{
+nav ul li {
     display: inline-block;
-    float:center;
+    float: center;
 }
-
-nav ul li a{
+nav ul li a {
     color: #aaa;
     display: block;
     line-height: 2em;
     padding: 0.5em 0.5em;
     text-decoration: none;
 }
-
-nav a:hover{
+nav a:hover {
     color: gray;
 }
-
-section#main{
-    float:left;
+section#main {
+    float: left;
     width: 80%
 }
-
-img{
-    height: 40px;
-    width: 40px;
+img {
+    height: 80px;
+    width: 110px;
     float: left;
+    margin-right: 15px;
 }
-aside{
-    float:right;
-    width: 20%;
+aside {
+    float: right;
+    width: 30%;
     text-align: left;
-    background:lightgrey;
-
-
+    background: #d3d3d373;
+    border-color: black;
 }
-aside ul li{
+aside ul li {
     line-height: 2em;
     padding: 0.5em 0.5em;
     list-style: none;
 }
-
-aside ul li a{
-   text-decoration: none;
+aside ul li a {
+    text-decoration: none;
 }
-
-
- 
-
-.header
-
-{
-
-    width:90%;
-
-    margin-top:5px;
-
-    margin-left:5%;
-
-    background:#ffffff;
-
+.header {
+    width: 90%;
+    margin-top: 5px;
+    margin-left: 5%;
+    background: #ffffff;
     height: 40px;
-
-    float:left;
-
+    float: left;
 }
-
- 
-
-
-.top_menu ul
-
-{
-
-    list-style:none;
-
-    float:left;
-
+.top_menu ul {
+    list-style: none;
+    float: left;
     padding: 2%;
-
-    width:95%;
-
+    width: 95%;
 }
-
- 
-
-.top_menu ul li
-
-{
-
-    float:right;
-
-    margin-right:100px;
-
-    margin-bottom:5px;
-
+.top_menu ul li {
+    float: right;
+    margin-right: 100px;
+    margin-bottom: 5px;
     background: #2da0ff;
-
-    padding:5px;
-
+    padding: 5px;
     border-radius: 10%;
-
 }
-
-.top_menu ul li a
-
-{
-
+.top_menu ul li a {
     color: #FFFFFF;
-
-    text-decoration:none;
-
+    text-decoration: none;
 }
-
-.top_menu ul li a:hover
-
-{
-
+.top_menu ul li a:hover {
     color: red;
-
 }
-
- 
