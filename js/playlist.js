@@ -13,3 +13,14 @@ $(document).on('click','.active', function (event) {
         $("#video").attr("src","tercerVideo.mp4");
     }
 });
+function local() {
+    var usuario = prompt("¿Nombre de usuario?", "");
+    if (usuario != null){
+        localStorage.setItem("Nombre", usuario);
+    
+    }
+    else {
+    alert("Nombre de usuario no valido");
+    }
+    }
+
