@@ -28,9 +28,8 @@
     var usr = document.getElementById("inputEmail").value
     var pass = document.getElementById("inputPassword").value
     if(localStorage.getItem(usr) === null){
-        console.log("Usuario: " + usr + " no existe, ya fue agregado");
+        
         localStorage.setItem(usr, pass);
-        document.getElementById("title").innerText = "Usuario: " + usr + " no existe, ya fue agregado";
         
         window.location.href='playlist.html'
     }else{
