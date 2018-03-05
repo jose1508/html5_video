@@ -92,7 +92,7 @@ aside ul li a {
 .top_menu ul li a:hover {
     color: red;
 }
-.titulo{
+#title{
     color: #aaa;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;

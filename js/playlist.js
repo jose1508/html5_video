@@ -23,4 +23,17 @@ function local() {
     alert("Nombre de usuario no valido");
     }
     }
+function login(){
+    var usuario = prompt("Nombre de usuario", "");
+   
+    if(localStorage.getItem(usuario) === null){
+        window.location.href='login.html'
+    }else{
+             var pass = localStorage.getItem(usuario);
+           alert("Usuario: " + usuario + " existe y tiene el pass: " + pass);
+           document.getElementById("title").innerText = "Hola: " + usuario ;
+
+    }
+
+}
 
