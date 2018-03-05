@@ -36,4 +36,14 @@ function login(){
     }
 
 }
+function dragFunction(ev) {
+    ev.preventDefault();
+    ev.dataTransfer.dropEffect = "copy";
+}
+function dropFunction(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.files;
+    var video = document.getElementById("video");
+    video.src = window.URL.createObjectURL(data[0]);
+}
 
