@@ -92,3 +92,8 @@ aside ul li a {
 .top_menu ul li a:hover {
     color: red;
 }
+#title{
+    color: #aaa;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
